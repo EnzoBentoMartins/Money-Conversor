@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#container {
+    text-align: center;
+}
+
+#title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(3, 99, 0);
+}
+
+#USD {
+    background-image: url(dolar.jpg);
+    opacity: 0.8;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+#valUSD,
+#valEUR {
+    height: 20px;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.botao {
+    height: 30px;
+    width: 90px;
+    border: none;
+    background-color: rgb(3, 99, 0);
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#EUR {
+    background-image: url(euro.jpg);
+    opacity: 0.8;
+    height: 300px;
+}
+
+.subTitle {
+    padding-top: 50px;
+}
+
+#resultUSD,
+#resultEUR {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(3, 99, 0);
+    max-width: 100px;
+}
